@@ -1,0 +1,21 @@
+{
+  "calculus": {
+    "params": 641601,
+    "seconds": 1213,
+    "val_bits_per_char": 2.218,
+    "solver_sweep": {
+      "euler-2": 2.826,
+      "euler-4": 2.365,
+      "rk4-2": 2.244,
+      "rk4-4": 2.218,
+      "rk4-8": 2.219
+    },
+    "sample": "ROMEO:\nAnd I am found me to the lord, you been my name\nMore and success with been to meet me:\nThe subore the words mildren awake our revermite\nThou art thou shamely on the thief and singuled\nThe rotten the stirrs, yield,\nAs then but desires spasts nire your most towards,\nAnd she revenge herhood in more con"
+  },
+  "transformer": {
+    "params": 677313,
+    "seconds": 125,
+    "val_bits_per_char": 2.451,
+    "sample": "ROMEO:\nWas go thou are for mill\nThe was name whom such and grounders bond,\nSome to the will not bleed the much of more.\n\nGLOUCESTER:\nBecause than this ereation down:\nNow good thing.\n\nAUFORD:\nNo, what's that alieve sufflaid, seeping all the press.\n\nBOLINGBHENBEO:\nWhat that us, which prove so I mam!\n\nROMEO:\n"
+  }
+}
