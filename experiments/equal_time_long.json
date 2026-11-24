@@ -1,0 +1,36 @@
+{
+  "calculus": {
+    "params": 641601,
+    "steps": 670,
+    "seconds": 721,
+    "predict_ms_per_batch": 264,
+    "val_bits_per_char": 2.344,
+    "solver_sweep": {
+      "euler-2": 2.793,
+      "euler-4": 2.44,
+      "rk4-2": 2.363,
+      "rk4-4": 2.344,
+      "rk4-8": 2.344
+    },
+    "sample": "ROMEO:\nIf the regentleman:\nHe cannot speak you are and yet no more\nThe son him is mine of the sease of their touch,\nShall dead, with the dreams and with the other then!\n\nESCALUS:\nAarry so lies he should have shepherd lords with thy face!\nWhat shall she did hands the people king manish,\nA cannot so pries by"
+  },
+  "transformer": {
+    "params": 742849,
+    "steps": 3530,
+    "seconds": 720,
+    "predict_ms_per_batch": 186,
+    "val_bits_per_char": 2.738,
+    "sample": "ROMEO:\nAnd, thou own that me be to? wo now what sonte oute sucht\nBut thy could mand tagme and they upand chanciod.\n\nHORD:\nHat's it the of with Duck not blooing and our to as cright\nAnd man stall both see, our happery?\nHere not shal we it thee deather them heart:\nTake on that whis mand I'll have send,\nHow a"
+  },
+  "settings": {
+    "model": "both",
+    "iters": 1500,
+    "batch": 4,
+    "block": 1024,
+    "dim": 128,
+    "lr": 0.002,
+    "seed": 0,
+    "minutes": 12.0,
+    "out": "experiments/equal_time_long.json"
+  }
+}
