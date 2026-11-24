@@ -6,6 +6,7 @@ of a fixed stack of layers (the Transformer design used by today's LLMs).
 * **[DESIGN.md](DESIGN.md)**: the full design, the math, honest caveats, and a roadmap
 * **[calculus_lm.py](calculus_lm.py)**: the model (heavily commented)
 * **[train.py](train.py)**: trains it on Shakespeare and compares it to a Transformer
+* **[excel/Calculus_LM.xlsx](excel/Calculus_LM.xlsx)**: a mini version (162 parameters) running entirely on live Excel formulas, with every formula explained
 
 ## How it works, in plain words
 
