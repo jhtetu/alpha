@@ -1,2 +1,5 @@
 *.pt
 __pycache__/
+data/enwik8
+v2/results/*.pt
+v2/stage1.log
