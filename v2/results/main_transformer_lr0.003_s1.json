@@ -1,0 +1,12 @@
+{
+ "model": "transformer",
+ "lr": 0.003,
+ "seed": 1,
+ "minutes": 10.0,
+ "steps": 1719,
+ "params": 918656,
+ "flops_per_letter": 2818048.0,
+ "val": {
+  "bpc": 2.0496156745699903
+ }
+}

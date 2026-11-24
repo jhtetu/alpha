@@ -1,0 +1,9 @@
+{
+ "model": "ssm",
+ "seed": 0,
+ "library_entries": 327680,
+ "tau": 0.25,
+ "lambda": 0.1,
+ "bpc_without_library": 2.145459319959766,
+ "bpc_with_library": 2.1249861612357557
+}

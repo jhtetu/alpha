@@ -191,7 +191,7 @@ def library_test(name, seed, lr, n_store_batches=40, n_query_batches=8, k=32):
         out = model(x)
         q = out["hidden"].reshape(-1, D)
         lp_model.append(F.log_softmax(out["logits"].reshape(-1, 256), -1))
-        for qc in q.split(4096):
+        for qc in q.split(512):
             d = k2[None] - 2 * qc @ keys.T + (qc ** 2).sum(-1, keepdim=True)
             dist, idx = d.topk(k, largest=False)
             lp_knn_d.append(dist); lp_knn_v.append(vals[idx])

@@ -1,0 +1,12 @@
+{
+ "model": "calculus_v2",
+ "lr": 0.001,
+ "seed": 0,
+ "minutes": 3,
+ "steps": 564,
+ "params": 935040,
+ "flops_per_letter": 2340870.0,
+ "val": {
+  "bpc": 2.541318043319618
+ }
+}

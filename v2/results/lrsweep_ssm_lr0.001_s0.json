@@ -1,0 +1,12 @@
+{
+ "model": "ssm",
+ "lr": 0.001,
+ "seed": 0,
+ "minutes": 3,
+ "steps": 666,
+ "params": 854144,
+ "flops_per_letter": 1718278.0,
+ "val": {
+  "bpc": 2.976659282458447
+ }
+}

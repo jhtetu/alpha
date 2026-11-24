@@ -1,0 +1,9 @@
+{
+ "model": "calculus_v2",
+ "seed": 0,
+ "library_entries": 327680,
+ "tau": 0.25,
+ "lambda": 0.1,
+ "bpc_without_library": 2.0997729886713152,
+ "bpc_with_library": 2.0792205459452573
+}

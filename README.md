@@ -120,6 +120,23 @@ about 4.5× faster (200 ms vs 892 ms).
 For long text, this first evidence suggests the calculus design is more accurate
 and, at longer lengths, faster.
 
+## Stage 1: a fair benchmark on enwik8 (Calculus LM v2)
+
+**[STAGE1.md](STAGE1.md)** has the full method and results. Calculus LM v2 (in
+`v2/`) was compared with a modern Transformer and a state-space model on the
+standard enwik8 Wikipedia test. All three had about 0.9M parameters and 10 minutes
+of training, and each was run with 3 random seeds.
+
+| | Transformer | State-space model | **Calculus LM v2** |
+|---|---|---|---|
+| Error (bits per character, mean of 3) | 2.041 | 2.093 | **2.039** |
+| Compute per letter | 2.82 M | **1.72 M** | 2.34 M |
+
+**Result:** Calculus LM v2 matched the Transformer's accuracy using 17% less
+compute. It was not more accurate, and the state-space model was cheaper but less
+accurate. Removing the velocity and acceleration signals made it clearly worse,
+which is evidence that the calculus idea itself is doing useful work.
+
 ## Run it yourself
 
 ```bash

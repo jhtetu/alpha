@@ -1,0 +1,9 @@
+{
+ "model": "transformer",
+ "seed": 0,
+ "library_entries": 327680,
+ "tau": 0.5,
+ "lambda": 0.2,
+ "bpc_without_library": 2.0980201414937216,
+ "bpc_with_library": 2.07576283474966
+}
