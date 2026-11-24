@@ -1,0 +1,36 @@
+{
+  "calculus": {
+    "params": 641601,
+    "steps": 720,
+    "seconds": 721,
+    "predict_ms_per_batch": 314,
+    "val_bits_per_char": 2.312,
+    "solver_sweep": {
+      "euler-2": 2.798,
+      "euler-4": 2.425,
+      "rk4-2": 2.333,
+      "rk4-4": 2.312,
+      "rk4-8": 2.312
+    },
+    "sample": "ROMEO:\nI woo, would but for the heads not might,\nWhich he should jest make it for him.\n\nGLOUCESTER:\nYou'll this news? But I mean bed there\nThe cope's of his misery apputy.\n\nMARGARET:\nThou art not be a marks he words of our country that resolent to best conceived it, the might of excuse\nAs we must nurse: an"
+  },
+  "transformer": {
+    "params": 677313,
+    "steps": 6791,
+    "seconds": 720,
+    "predict_ms_per_batch": 34,
+    "val_bits_per_char": 2.212,
+    "sample": "ROMEO:\nGod call me what ever counsel, the like while:\nAs for a full of that kill'd her fresh,\nBut be allowed, who, that was never servant,\nWhich then if my knowledge is a woman:\nThe way done that run all, as as you, as if show\nTo do a cure of your beauty kings? My and my\nOf such all and delight of it?\n\nRAT"
+  },
+  "settings": {
+    "model": "both",
+    "iters": 1500,
+    "batch": 32,
+    "block": 128,
+    "dim": 128,
+    "lr": 0.002,
+    "seed": 0,
+    "minutes": 12.0,
+    "out": "experiments/equal_time_short.json"
+  }
+}
